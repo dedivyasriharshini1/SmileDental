@@ -1,0 +1,128 @@
+/* styles/Home.module.css */
+
+.container {
+  background-color: #f9fafb; 
+  min-height: 100vh; 
+  padding: 2rem 1rem; 
+}
+
+.innerContainer {
+  max-width: 96rem; 
+  margin: 0 auto; 
+  background-color: #ffffff; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr; 
+}
+
+@media (min-width: 768px) {
+  .row {
+    grid-template-columns: 1fr 1fr; 
+  }
+}
+
+.textColumn {
+  padding: 2rem; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.heading {
+  font-size: 1.875rem; 
+  font-weight: 700; 
+  margin-bottom: 1rem; 
+}
+
+.hrLine {
+  border-top: 2px solid #d1d5db;
+  width: 6rem;
+  margin: 0 auto 2rem auto; 
+}
+
+.bookButton {
+  background-color: #3b82f6; 
+  color: #ffffff;
+  padding: 0.5rem 1rem; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s; 
+}
+
+.bookButton:hover {
+  background-color: #2563eb; 
+}
+
+.imageContainer {
+  position: relative; 
+}
+
+.fullWidthSection {
+  max-width: 64rem; 
+  margin: 2rem auto; 
+}
+
+.fullWidthContent {
+  background-color: #ffffff; 
+  padding: 1.5rem;
+  border-radius: 0.5rem; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .fullWidthContent {
+    flex-direction: row;
+  }
+}
+
+.imageLeft {
+  width: 100%;
+  margin-bottom: 1rem; 
+}
+
+@media (min-width: 768px) {
+  .imageLeft {
+    width: 33.333%; 
+    margin-bottom: 0;
+  }
+}
+
+.textRight {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .textRight {
+    width: 66.666%; 
+    padding-left: 1.5rem; 
+  }
+}
+
+.subheading {
+  font-size: 1.5rem; 
+  font-weight: 600;
+  margin-bottom: 1rem; 
+  padding-left: 30px;
+}
+
+.paragraph {
+  font-size: 1.125rem; 
+  margin-bottom: 1rem; 
+  text-align: justify; 
+  padding-left: 30px;
+}
+
+.shadowLg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+}

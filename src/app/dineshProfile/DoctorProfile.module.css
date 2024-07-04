@@ -1,0 +1,94 @@
+/* Centering the card in the page */
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Light background for better visibility */
+  }
+  
+  /* Card container */
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Background color for the card */
+    margin: 20px; /* Margin around the card */
+  }
+  
+  /* Styling for the image */
+  .image {
+    width: 300px;
+    height: 450px; /* Fixed height to maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+    margin-right: 20px; /* Space between image and content */
+  }
+  
+  /* Styling for the details section */
+  .details {
+    padding: 20px;
+    flex: 1; /* Allow the content to take available space */
+  }
+  
+  /* Name styling */
+  .name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Specialty styling */
+  .specialty {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #777;
+  }
+  
+  /* Section title styling */
+  .sectionTitle {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Bio styling */
+  .bio {
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Button styling */
+  .timetableButton {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .timetableButton:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Procedures list styling */
+  .procedures {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .procedures li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  

@@ -1,0 +1,144 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .main-content-wrap {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .main-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    float:right;
+  }
+  
+  .sidebar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .doctor-profile {
+    margin-bottom: 20px;
+    
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height:500px;
+    width:320px;
+    margin:40px;
+  }
+  
+  .doctor-image {
+    
+    width:320px;
+    
+  }
+  
+  .doctor-details {
+    padding: 10px;
+  }
+  
+  .doctor-details h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+.main-content-wrap {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  margin: 20px 0; 
+  background-color: #f9f9f9;
+}
+
+
+.text-content {
+  max-width: 60%; 
+  text-align: justify; 
+  margin-right: 20px; 
+}
+
+.text-content h2 {
+  font-size: 28px; 
+  color: #333; 
+  margin-bottom: 10px; 
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5; 
+}
+
+
+.image {
+  width: 350px; 
+  height: auto;
+  border-radius: 10px; 
+}
+.imageAbout{
+  width:100%;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+}
+
+.message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.subMessage {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

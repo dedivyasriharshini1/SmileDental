@@ -1,0 +1,83 @@
+/* Services.module.css */
+
+.wrapper {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .subheading {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  
+  .servicesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .serviceBox {
+    display: flex;
+    width: calc(33.333% - 40px); 
+    min-width: 250px;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .serviceBox:hover {
+    transform: translateY(-10px);
+  }
+  
+  .serviceContent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 20px;
+  }
+  
+  .serviceText {
+    flex: 1;
+  }
+  
+  .serviceTitle {
+    color: #0080c4;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .serviceDescription {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .viewMoreContainer {
+    margin-top: 40px;
+  }
+  
+  .viewMoreButton {
+    text-decoration: none;
+    background-color: #0080c4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .viewMoreButton:hover {
+    background-color: #006ba1;
+  }
+  

@@ -1,0 +1,103 @@
+
+
+.pageContent {
+  background-color: #f9fafb; 
+  min-height: 100vh; 
+  padding: 2rem 1rem; 
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+
+ 
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.columnHalf {
+  flex: 1;
+  padding: 1rem;
+}
+
+.columnFull {
+  flex: 1;
+  padding: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; 
+}
+
+.emptySpace {
+  flex: 1; 
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mainHeading {
+  font-size: 1.875rem; 
+  font-weight: 700; 
+  margin-bottom: 1rem; 
+}
+
+.headingSpacer {
+  height: 1rem; 
+}
+
+.buttonContainer {
+  align-self: flex-start; 
+}
+
+.bookNowButton {
+  background-color: #3b82f6; 
+  color: #ffffff;
+  padding: 0.5rem 1rem; 
+  border-radius: 0.5rem; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s; 
+  text-decoration: none; 
+  display: inline-block;
+}
+
+.bookNowButton:hover {
+  background-color: #2563eb;
+}
+
+.imageContainer {
+  position: relative; 
+}
+
+.featureBox {
+  display: flex;
+  align-items: flex-start;
+}
+
+.featureIcon {
+  margin-right: 1rem; 
+}
+
+.subHeading {
+  font-size: 1.5rem; 
+  font-weight: 600; 
+  margin-bottom: 1rem; 
+}
+
+.text {
+  font-size: 1.125rem; 
+  margin-bottom: 1rem; 
+  text-align: justify; 
+}
+
+.rightAlignedImage {
+  /* Define styling for any right-aligned image if necessary */
+}

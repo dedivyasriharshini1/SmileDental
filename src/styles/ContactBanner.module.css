@@ -1,0 +1,86 @@
+/* components/ContactBanner.module.css */
+
+.bannerContainer {
+    display: flex;
+    background-color: #007bff; 
+    margin-left:50px;
+    margin-right:50px;
+
+  }
+  
+  .bannerItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    flex: 1;
+    text-align: center;
+    position: relative; 
+  }
+  
+  .bannerItem span {
+    margin: 0 5px;
+  }
+  
+  .implantCenter {
+    background-color: #00aaff;
+     
+  }
+  
+  .bookAppointment {
+    background-color: #00bbff; 
+  }
+  
+  .openingHours {
+    background-color: #00aaff; 
+    position: relative;
+  }
+  
+  .openingHours:hover {
+    background-color: blue;
+  }
+  
+  .openingHours:hover span,
+  .openingHours:hover .arrow {
+    color: white; 
+  }
+  
+  .emergencyCase {
+    background-color: #0047ab; 
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .icon, .phoneIcon, .arrow {
+    margin-right: 8px;
+  }
+  
+  .phoneNumber {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+
+  .hoursInfo {
+    display: none;
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: left;
+  }
+  
+
+  .openingHours:hover .hoursInfo {
+    display: block;
+  }
+  
