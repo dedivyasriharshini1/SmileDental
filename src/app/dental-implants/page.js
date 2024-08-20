@@ -33,7 +33,7 @@ export default function Home() {
             {/* Right Column for Image */}
             <div className={styles.imageContainer}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/04/1Dental-Implants.jpg"
+                src="/dental-implants.PNG"
                 alt="Dental Implants"
                 width={740}
                 height={740}
@@ -49,7 +49,7 @@ export default function Home() {
             {/* Left Column for Image */}
             <div className={styles.imageLeft}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/03/Dental-Braces-copy.png"
+                src="/di.PNG"
                 alt="Dental Implants"
                 width={360}
                 height={180}

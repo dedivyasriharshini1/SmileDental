@@ -27,13 +27,14 @@ export default function Home() {
                 
                     Book Now
                   
+                  
                 </Link>
               </div>
             </div>
             {/* Right Column for Image */}
             <div className={styles.imageContainer}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/04/1.Wisdom-Teeth.png"
+                src="/wisdom-tooth.PNG"
                 alt="Wisdom Teeth"
                 width={612}
                 height={382}
@@ -49,7 +50,7 @@ export default function Home() {
             {/* Left Column for Image */}
             <div className={styles.imageLeft}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/03/Wisdom-Teeth-Removal-copy.png"
+                src="/wtr.PNG"
                 alt="Wisdom Teeth Removal"
                 width={360}
                 height={180}

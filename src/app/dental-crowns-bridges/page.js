@@ -28,7 +28,7 @@ export default function DentalCrownsBridges() {
         <div className={styles.columnHalf}>
           <div className={styles.imageContainer}>
             <Image
-              src="http://www.smile-dental.in/wp-content/uploads/2022/04/dental-crown-and-bridges.jpg"
+              src="/dental-crowns.PNG"
               alt="Dental Crowns and Bridges"
               width={740}
               height={489}
@@ -43,7 +43,7 @@ export default function DentalCrownsBridges() {
           <div className={styles.featureBox}>
             <div className={styles.featureIcon}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/03/Dental-Crowns-Bridges-copy.png"
+                src="/dc.PNG"
                 alt="Dental Crowns and Bridges Icon"
                 width={40}
                 height={40}

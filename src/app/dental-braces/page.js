@@ -21,7 +21,7 @@ export default function DentalBraces() {
         <div className={styles.column}>
           <div className={styles.imageContainer}>
             <Image
-              src="http://www.smile-dental.in/wp-content/uploads/2022/04/1denta-lbraces.png"
+              src="/dental-braces.PNG"
               alt="Dental Braces"
               width={683}
               height={429}
@@ -36,7 +36,7 @@ export default function DentalBraces() {
           <div className={styles.featureBox}>
             <div className={styles.featureIcon}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/03/Dental-Braces-copy.png"
+                src="/db1.PNG"
                 alt="Dental Braces Icon"
                 width={40}
                 height={40}

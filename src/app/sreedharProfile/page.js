@@ -15,7 +15,7 @@ const DoctorProfile = () => {
   return (
     <div className={styles.pageContainer}>
       <div className={styles.card}>
-        <Image src="http://www.smile-dental.in/wp-content/uploads/2016/09/sridhar.jpg" width= {300}
+        <Image src="/sreedhar.PNG" width= {300}
     height= {450} alt="Dr.Sreedhar" className={styles.image} />
         <div className={styles.details}>
           <h1 className={styles.name}>DR. SREEDHAR REDDY</h1>

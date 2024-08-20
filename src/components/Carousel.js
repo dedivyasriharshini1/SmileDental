@@ -11,7 +11,7 @@ const CustomCarousel = () => {
       <Carousel showArrows={false} autoPlay={true} infiniteLoop={true} interval={5000}  showThumbs={false}>
         <div className="carousel-item">
           <Image
-            src="	http://www.smile-dental.in/wp-content/uploads/2022/03/slider-1-copy.jpg" 
+            src="/slider1.PNG" 
             alt="First Slide"
             layout="responsive"
             width={1920}
@@ -21,7 +21,7 @@ const CustomCarousel = () => {
         </div>
         <div className="carousel-item">
           <Image
-            src="http://www.smile-dental.in/wp-content/uploads/2022/03/slider-2-copy.jpg" 
+            src="/slider2.PNG" 
             alt="Second Slide"
             layout="responsive"
             width={1920}

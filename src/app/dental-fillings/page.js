@@ -24,7 +24,7 @@ const DentalFillings = () => {
            
             <div className={styles.imageContainer}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/04/fillings.jpg"
+                src="/dental-fillings.PNG"
                 alt="Dental Fillings"
                 width={740}
                 height={493}
@@ -40,7 +40,7 @@ const DentalFillings = () => {
           
             <div className={styles.imageLeft}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/03/dental-filling-copy.png"
+                src="/df.PNG"
                 alt="Dental Filling Icon"
                 width={360}
                 height={180}

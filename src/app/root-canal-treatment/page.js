@@ -24,7 +24,7 @@ const RootCanal = () => {
            
             <div className={styles.imageContainer}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/03/root-canel.jpg"
+                src="/root-canal.PNG"
                 alt="Root Canal"
                 width={740}
                 height={493}
@@ -40,7 +40,7 @@ const RootCanal = () => {
           
             <div className={styles.imageLeft}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/03/rct-1.png"
+                src="/rct.PNG"
                 alt="Dental Filling Icon"
                 width={360}
                 height={180}

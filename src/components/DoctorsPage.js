@@ -9,11 +9,11 @@ import 'react-multi-carousel/lib/styles.css';
 import Image from 'next/image';
 
 const doctors = [
-  { profilePath :"/vishalProfile" ,  src: "http://www.smile-dental.in/wp-content/uploads/2016/09/drvishalsing.jpg", alt: "K. Vishal Singh", name: "K. Vishal Singh", specialization: "Dental" },
-  { profilePath :"/pritiProfile" ,  src: "http://www.smile-dental.in/wp-content/uploads/2016/09/drpriti.jpg", alt: "Dr. PRITI", name: "Dr. PRITI", specialization: "Dental" },
-  { profilePath :"/dineshProfile" ,  src: "http://www.smile-dental.in/wp-content/uploads/2016/09/drdinesh.jpg", alt: "Dr. Dinesh Singh Chauhan", name: "Dr.Dinesh Singh", specialization: "Dental" },
-  { profilePath :"/prashanthProfile" ,  src: "http://www.smile-dental.in/wp-content/uploads/2016/09/doctor.png", alt: "Dr. Prashanth Kumar", name: "Dr. Prashanth Kumar", specialization: "Dental" },
-  { profilePath :"/sreedharProfile" , src: "http://www.smile-dental.in/wp-content/uploads/2016/09/sridhar.jpg", alt: "Dr.Sreedhar", name: "Dr. Sreedhar Reddy ", specialization: "Dental" }, 
+  { profilePath :"/vishalProfile" ,  src: "/vishal.PNG", alt: "K. Vishal Singh", name: "K. Vishal Singh", specialization: "Dental" },
+  { profilePath :"/pritiProfile" ,  src: "/priti.PNG", alt: "Dr. PRITI", name: "Dr. PRITI", specialization: "Dental" },
+  { profilePath :"/dineshProfile" ,  src: "/dinesh.PNG", alt: "Dr. Dinesh Singh Chauhan", name: "Dr.Dinesh Singh", specialization: "Dental" },
+  { profilePath :"/prashanthProfile" ,  src: "/prashanth.PNG", alt: "Dr. Prashanth Kumar", name: "Dr. Prashanth Kumar", specialization: "Dental" },
+  { profilePath :"/sreedharProfile" , src: "/sreedhar.PNG", alt: "Dr.Sreedhar", name: "Dr. Sreedhar Reddy ", specialization: "Dental" }, 
 ];
 
 const DoctorsCarousel = () => {

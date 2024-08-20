@@ -9,7 +9,7 @@ function AboutUs() {
 
   return (
     <Layout>
-    <a href="https://ibb.co/BCZkN7Z"><img className={styles.imageAbout} src="https://i.ibb.co/pLzqysz/ab.png" alt="ab" border="0" /></a>
+    <a href="https://ibb.co/BCZkN7Z"><img className={styles.imageAbout} src="/about1.PNG" alt="ab" border="0" /></a>
   
    <div className={`${styles.row} ${styles['main-content-wrap']}`}>
  
@@ -23,7 +23,7 @@ function AboutUs() {
 
  
   <Image
-    src="http://www.smile-dental.in/wp-content/uploads/2022/03/checkup-dentist-tool-instrument-young-scaled.jpg"
+    src="/dental.PNG"
     alt="Dental Checkup"
     className={styles['image']} width={350} height={400}
     
@@ -40,7 +40,7 @@ function AboutUs() {
             <Link href="/vishalProfile">
             <DoctorProfilePreview
               name="K.Vishal Singh"
-              imageUrl="http://www.smile-dental.in/wp-content/uploads/2016/09/drvishalsing.jpg" 
+              imageUrl="/vishal.PNG" 
               bio="Dr. K.Vishal Singh did his specialization in the department of Prosthodontics and Implantology."
               
             /></Link>
@@ -51,7 +51,7 @@ function AboutUs() {
             <Link href="/pritiProfile" >
             <DoctorProfilePreview
               name="DR. PRITI"
-              imageUrl="http://www.smile-dental.in/wp-content/uploads/2016/09/drpriti.jpg" 
+              imageUrl="/priti.PNG" 
               bio="Dr. Priti completed her B.D.S. from Government Dental College and Hospital, Mumbai."
               
             />
@@ -63,7 +63,7 @@ function AboutUs() {
           <div className="col-md-4"><Link href="/dineshProfile">
             <DoctorProfilePreview
               name="Dr .Dinesh Singh Chauhan"
-              imageUrl="http://www.smile-dental.in/wp-content/uploads/2016/09/drdinesh.jpg"
+              imageUrl="/dinesh.PNG"
               bio="Dr. Dinesh Singh Chauhan is an oral and maxillofacial surgeon."
               
             /></Link>
@@ -77,7 +77,7 @@ function AboutUs() {
           <div className="col-md-4"><Link href="/prashanthProfile">
             <DoctorProfilePreview
               name="Dr .Prashanth Kumar"
-              imageUrl="http://www.smile-dental.in/wp-content/uploads/2016/09/doctor.png"
+              imageUrl="/prashanth.PNG"
               bio="Dr. Prashant Kumar is an orthodontist and dent facial orthopedician."
               
             /></Link>
@@ -87,7 +87,7 @@ function AboutUs() {
           <div className="col-md-4"><Link href="/sreedharProfile">
             <DoctorProfilePreview
               name="DR. SREEDHAR REDDY"
-              imageUrl="http://www.smile-dental.in/wp-content/uploads/2016/09/sridhar.jpg"
+              imageUrl="/sreedhar.PNG"
               bio="Dr . Sreedhar Reddy is specialized in periodontics . He has 16 years of clinical experience."
               
             /></Link>

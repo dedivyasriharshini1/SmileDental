@@ -26,7 +26,7 @@ const TeethWhitening = () => {
             {/* Right Column for Image */}
             <div className={styles.imageContainer}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/04/teeth-whitening.jpg"
+                src="/teeth-whitening.PNG"
                 alt="Teeth Whitening"
                 width={740}
                 height={493}
@@ -42,7 +42,7 @@ const TeethWhitening = () => {
             {/* Left Column for Image */}
             <div className={styles.imageLeft}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/03/Teeth-Whitening-copy.png"
+                src="/tw.PNG"
                 alt="Teeth Whitening Icon"
                 width={360}
                 height={180}

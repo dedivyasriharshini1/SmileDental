@@ -27,7 +27,7 @@ const Dentures = () => {
             {/* Column for Image */}
             <div className={styles.imageContainer}>
               <Image 
-                src="http://www.smile-dental.in/wp-content/uploads/2022/04/1dentures.jpg"
+                src="/dentures.PNG"
                 alt="Dentures"
                 width={740}
                 height={493}
@@ -44,7 +44,7 @@ const Dentures = () => {
             {/* Image on the Left */}
             <div className={styles.imageLeft}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/03/Dentures-1.png"
+                src="/denture1.PNG"
                 alt="Dentures"
                 width={360}
                 height={180}

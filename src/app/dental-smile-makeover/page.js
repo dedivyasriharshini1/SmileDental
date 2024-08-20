@@ -23,7 +23,7 @@ const BestDentalSmileMakeover = () => {
             {/* Right Column for Image */}
             <div className={styles.imageContainer}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/04/smile-500x500.jpg"
+                src="/dental-smile.PNG"
                 alt="Dental Smile Makeover"
                 width={500}
                 height={500}
@@ -39,7 +39,7 @@ const BestDentalSmileMakeover = () => {
             {/* Left Column for Image */}
             <div className={styles.imageLeft}>
               <Image
-                src="http://www.smile-dental.in/wp-content/uploads/2022/03/smile-copy.png"
+                src="/smile.PNG"
                 alt="Smile Makeover Icon"
                 width={48}
                 height={48}
@@ -50,7 +50,7 @@ const BestDentalSmileMakeover = () => {
             <div className={styles.textRight}>
               <h2 className={styles.subheading}>Smile Makeover</h2>
               <p className={styles.paragraph}>
-                Smile Makeover is a process administered by a dentist for improving one's smile through various cosmetic or surgical procedures.
+                Smile Makeover is a process administered by a dentist for improving ones smile through various cosmetic or surgical procedures.
               </p>
               <p className={styles.paragraph}>
                 A smile makeover takes into consideration the tooth color, tooth size, tooth shape, tooth position, lip position, lip length, gum position, and gum color.

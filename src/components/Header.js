@@ -10,7 +10,7 @@ const Header = () => {
         {/* Left Section: Logo */}
         <div className={styles.headerLeft}>
           <a href="https://www.smile-dental.in/" title="Smile-Dental - Dental Laser Treatment" rel="home">
-            <img className={styles.logo} src="//www.smile-dental.in/wp-content/uploads/2022/03/logo-1-smiledental.png" alt="Smile-Dental" />
+            <img className={styles.logo} src="/logo.PNG" alt="Smile-Dental" />
           </a>
         </div>
 

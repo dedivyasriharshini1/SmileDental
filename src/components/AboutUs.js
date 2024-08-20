@@ -28,7 +28,7 @@ const AboutUs = () => {
             <Image
               width={415}
               height={318}
-              src="http://www.smile-dental.in/wp-content/uploads/2022/03/home-2-copy.png"
+              src="/about-us.PNG"
               className="vc_single_image-img attachment-full"
               alt=""
               decoding="async"
